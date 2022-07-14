@@ -1,0 +1,3 @@
+.v-btn:not(.v-btn--round).v-size--default {
+    padding: 0 2px;
+}

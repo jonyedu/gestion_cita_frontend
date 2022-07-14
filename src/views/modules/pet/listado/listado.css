@@ -1,0 +1,12 @@
+.color_text_inactivo {
+    color: red; 
+}
+.color_text_grupo {
+    color: #fb8c00;
+}
+.color_text_no_grupo {
+    color: #42a5f6;
+}
+.v-list-item__subtitle {
+    font-size: 0.6rem;
+}

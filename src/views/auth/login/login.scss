@@ -1,0 +1,132 @@
+#login {
+  //align-items: center;
+  background: rgba(221, 221, 221, 0.397);
+  //color: #0099ff;
+  display: flex;
+  //flex-direction: row;
+  //height: 100vh;
+  justify-content: center;
+  //overflow-x: hidden;
+  //position: relative;
+  //width: 100vw;
+  // @media (min-width: 900px) and (max-width: 1100px) {
+  //   //padding: 0px 50px;
+  //   padding: 30px;
+  // }
+  @media (min-width: 769px) and (max-width: 1100px) {
+    //padding: 0px 50px;
+    padding: 30px;
+  }
+  @media (max-width: 768px) {
+    //flex-direction: column;
+    //height: auto;
+    //min-height: 100vh;
+    padding: 0px 0px 150px !important;
+    //margin: 20px;
+    .container {
+      width: 400px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .row {
+      flex-flow: column-reverse;
+      height: auto;
+      width: 100%;
+      margin-top: 5px;
+    }
+  }
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+  .logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 70px;
+  }
+  @media (max-width: 768px) {
+    background: #fff;
+    border-radius: 100px;
+    box-shadow: 7px 7px 33px rgb(32, 32, 32, 0.21);
+    height: 75px;
+    margin-bottom: 20px;
+    margin-top: -75px;
+    //margin-top: -15vh;
+    width: 75px;
+    .logo {
+      height: auto;
+      position: relative;
+      width: 70%;
+    }
+  }
+  // @media (){
+
+  // }
+}
+#login-img .img-fit {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  @media (max-width: 768px) {
+    height: 180px;
+  }
+}
+
+.login-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 40px;
+  position: relative;
+  form {
+    //display: flex;
+    //flex-direction: column;
+    width: 50%;
+    @media (max-width: 991px) {
+      width: 80%;
+    }
+    @media (max-width: 575px) {
+      width: 100%;
+    }
+  }
+}
+
+#login-img .img-fit {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.img-fit img,
+.img-fit video {
+  object-fit: cover;
+  object-position: center;
+  -o-object-fit: cover;
+  -o-object-position: center;
+  width: 100%;
+  height: 100%;
+}
+.p-0 {
+  padding: 0 !important;
+}
+
+#login .row {
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 1px 1px 50px rgb(32 32 32 / 10%);
+  height: 500px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.theme--light.v-application {
+  background: 0 !important;
+}
